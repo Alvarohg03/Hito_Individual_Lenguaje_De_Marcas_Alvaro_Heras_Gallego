@@ -1,0 +1,2128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE pedidos [
+<!ELEMENT pedidos (año*)>
+<!ELEMENT año (trimestre*)>
+<!ELEMENT trimestre (pedido*)>
+<!ELEMENT pedido (cliente*,numero_pedido,fecha_de_compra,fecha_de_entrega,direccion*,producto*)>
+<!ELEMENT cliente (nombre,apellidos,telefono,correo_electronico,fecha_de_inclusion,pedidos*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT correo_electronico (#PCDATA)>
+<!ELEMENT fecha_de_inclusion (#PCDATA)>
+<!ELEMENT pedidos (#PCDATA)>
+<!ELEMENT direccion (calle,ciudad,codigo_postal,provincia)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT Nombrecodigo_postal (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT producto (nombre_producto,referencia,precio,unidades)>
+<!ELEMENT nombre_producto (#PCDATA)>
+<!ELEMENT referencia (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT unidades (#PCDATA)>
+
+]>
+<pedidos>
+    <año año='2020'>
+        <trimestre epoca='1'>
+            <pedido>
+                <cliente>
+                    <nombre>Alvaro</nombre>
+                    <apellidos>Heras Gallego</apellidos>
+                    <telefono>657458963</telefono>
+                    <direccion>
+                        <calle>Benito Guinea</calle>
+                        <ciudad>Vitoria-Gasteiz</ciudad>
+                        <codigo_postal>01003</codigo_postal>
+                        <provincia>Alava</provincia>
+                    </direccion>
+                    <correo_electronico>JuventinoVanegasLongoria@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>05/01/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>1</numero_pedido>
+                <fecha_de_compra>05/01/2020</fecha_de_compra>
+                <fecha_de_entrega>06/01/2020</fecha_de_entrega>
+                <total_factura>800€</total_factura>
+                <producto>
+                    <nombre_producto>TV LED "75"</nombre_producto>
+                    <referencia>aaa1</referencia>
+                    <precio>789€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Metran</nombre>
+                    <apellidos>Guardado Salcedo</apellidos>
+                    <telefono>790 575 671</telefono>
+                    <direccion>
+                        <calle>Maestro Puig Valera</calle>
+                        <ciudad>Murcia</ciudad>
+                        <codigo_postal>30140</codigo_postal>
+                        <provincia>Murcia</provincia>
+                    </direccion>
+                    <correo_electronico>MetranGuardadoSalcedo@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>10/10/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>2</numero_pedido>
+                <fecha_de_compra>15/01/2020</fecha_de_compra>
+                <fecha_de_entrega>16/01/2020</fecha_de_entrega>
+                <total_factura>470€</total_factura>
+                <producto>
+                    <nombre_producto>Movil-Realme</nombre_producto>
+                    <referencia>aaa2</referencia>
+                    <precio>229,85€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Nicandro</nombre>
+                    <apellidos>Crespo Malave</apellidos>
+                    <telefono>794 402 327</telefono>
+                    <direccion>
+                        <calle>Visitación de la Encina</calle>
+                        <ciudad>Escurial de la sierra</ciudad>
+                        <codigo_postal>37762</codigo_postal>
+                        <provincia>Salamanca</provincia>
+                    </direccion>
+                    <correo_electronico>NicandroCrespoMalave@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>05/01/2017</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>3</numero_pedido>
+                <fecha_de_compra>22/01/2020</fecha_de_compra>
+                <fecha_de_entrega>23/01/2020</fecha_de_entrega>
+                <total_factura>580€</total_factura>
+                <producto>
+                    <nombre_producto>Iphone 12</nombre_producto>
+                    <referencia>aaa3</referencia>
+                    <precio>569,56€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Lisardo</nombre>
+                    <apellidos>Verduzco Zarate</apellidos>
+                    <telefono>766 137 988</telefono>
+                    <direccion>
+                        <calle>Cercas Bajas</calle>
+                        <ciudad>Mollet del Valles</ciudad>
+                        <codigo_postal>08100 </codigo_postal>
+                        <provincia>Barcelona</provincia>
+                    </direccion>
+                    <correo_electronico>LisardoVerduzcoZarate@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>06/01/2019</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>4</numero_pedido>
+                <fecha_de_compra>02/02/2020</fecha_de_compra>
+                <fecha_de_entrega>02/02/2020</fecha_de_entrega>
+                <total_factura>3400€</total_factura>
+                <producto>
+                    <nombre_producto>Samsung Galaxy Book</nombre_producto>
+                    <referencia>aaa4</referencia>
+                    <precio>1699,89€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Kirios</nombre>
+                    <apellidos>Escamilla Pichardo</apellidos>
+                    <telefono>757 982 766</telefono>
+                    <direccion>
+                        <calle>Enxertos</calle>
+                        <ciudad>Zamarra</ciudad>
+                        <codigo_postal>37591 </codigo_postal>
+                        <provincia>Salamanca</provincia>
+                    </direccion>
+                    <correo_electronico>KiriosEscamillaPichardo@teleworm.us</correo_electronico>
+                    <fecha_de_inclusion>17/01/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>5</numero_pedido>
+                <fecha_de_compra>05/02/2016</fecha_de_compra>
+                <fecha_de_entrega>06/01/2020</fecha_de_entrega>
+                <total_factura>620€</total_factura>
+                <producto>
+                    <nombre_producto>Aspirador Dyson</nombre_producto>
+                    <referencia>aaa5</referencia>
+                    <precio>599,12€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Alvaro</nombre>
+                    <apellidos>Heras Gallego</apellidos>
+                    <telefono>657458963</telefono>
+                    <direccion>
+                        <calle>Benito Guinea</calle>
+                        <ciudad>Vitoria-Gasteiz</ciudad>
+                        <codigo_postal>01003</codigo_postal>
+                        <provincia>Alava</provincia>
+                    </direccion>
+                    <correo_electronico>JuventinoVanegasLongoria@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>05/01/2020</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>6</numero_pedido>
+                <fecha_de_compra>18/02/2020</fecha_de_compra>
+                <fecha_de_entrega>03/01/2020</fecha_de_entrega>
+                <total_factura>1300€</total_factura>
+                <producto>
+                    <nombre_producto>PlayStation 5</nombre_producto>
+                    <referencia>aaa6</referencia>
+                    <precio>619,45€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Nicandro</nombre>
+                    <apellidos>Crespo Malave</apellidos>
+                    <telefono>794 402 327</telefono>
+                    <direccion>
+                        <calle>Visitación de la Encina</calle>
+                        <ciudad>Escurial de la sierra</ciudad>
+                        <codigo_postal>37762</codigo_postal>
+                        <provincia>Salamanca</provincia>
+                    </direccion>
+                    <correo_electronico>NicandroCrespoMalave@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>05/01/2020</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>7</numero_pedido>
+                <fecha_de_compra>22/02/2020</fecha_de_compra>
+                <fecha_de_entrega>23/01/2020</fecha_de_entrega>
+                <total_factura>220€</total_factura>
+                <producto>
+                    <nombre_producto>Airpods 3gen</nombre_producto>
+                    <referencia>aaa3</referencia>
+                    <precio>209,10€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Menando</nombre>
+                    <apellidos>Cano Naranjo</apellidos>
+                    <telefono>753 611 972</telefono>
+                    <direccion>
+                        <calle>Rúa do Paseo</calle>
+                        <ciudad>Espartinas</ciudad>
+                        <codigo_postal>41807</codigo_postal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo_electronico>MenandroCanoNaranjo@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>08/01/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>8</numero_pedido>
+                <fecha_de_compra>27/02/2020</fecha_de_compra>
+                <fecha_de_entrega>28/02/2020</fecha_de_entrega>
+                <total_factura>1720€</total_factura>
+                <producto>
+                    <nombre_producto>Ipad 2020</nombre_producto>
+                    <referencia>aaa8</referencia>
+                    <precio>429,99€</precio>
+                    <unidades>4</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Nuria</nombre>
+                    <apellidos>Zamora Gonzales</apellidos>
+                    <telefono>611 017 743</telefono>
+                    <direccion>
+                        <calle>Estrela</calle>
+                        <ciudad>Vega de Pas</ciudad>
+                        <codigo_postal>39685</codigo_postal>
+                        <provincia>Cantabria</provincia>
+                    </direccion>
+                    <correo_electronico>NuriZamoraGonzales@armyspy.com</correo_electronico>
+                    <fecha_de_inclusion>01/03/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>9</numero_pedido>
+                <fecha_de_compra>01/03/2020</fecha_de_compra>
+                <fecha_de_entrega>02/03/2020</fecha_de_entrega>
+                <total_factura>140,56€</total_factura>
+                <producto>
+                    <nombre_producto>Freidora de aire</nombre_producto>
+                    <referencia>aaa9</referencia>
+                    <precio>129€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Nuria</nombre>
+                    <apellidos>Zamora Gonzales</apellidos>
+                    <telefono>611 017 743</telefono>
+                    <direccion>
+                        <calle>Estrela</calle>
+                        <ciudad>Vega de Pas</ciudad>
+                        <codigo_postal>39685</codigo_postal>
+                        <provincia>Cantabria</provincia>
+                    </direccion>
+                    <correo_electronico>NuriZamoraGonzales@armyspy.com</correo_electronico>
+                    <fecha_de_inclusion>01/03/2020</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>10</numero_pedido>
+                <fecha_de_compra>15/03/2020</fecha_de_compra>
+                <fecha_de_entrega>16/03/2020</fecha_de_entrega>
+                <total_factura>110,13€</total_factura>
+                <producto>
+                    <nombre_producto>Apple Pencil</nombre_producto>
+                    <referencia>aaa10</referencia>
+                    <precio>99€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+        </trimestre>
+        <trimestre epoca='2'>
+            <pedido>
+                <cliente>
+                    <nombre>Iciar</nombre>
+                    <apellidos>Palomino Pedroza</apellidos>
+                    <telefono>602 088 169</telefono>
+                    <direccion>
+                        <calle>Puerto Lugar</calle>
+                        <ciudad>Cómpeta</ciudad>
+                        <codigo_postal>29754</codigo_postal>
+                        <provincia>Malaga</provincia>
+                    </direccion>
+                    <correo_electronico>IziarPalominoPedroza@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>29/01/2019</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>11</numero_pedido>
+                <fecha_de_compra>01/04/2020</fecha_de_compra>
+                <fecha_de_entrega>02/02/2020</fecha_de_entrega>
+                <total_factura>450€</total_factura>
+                <producto>
+                    <nombre_producto>Lavadora</nombre_producto>
+                    <referencia>aab1</referencia>
+                    <precio>439,78€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Merlina</nombre>
+                    <apellidos>Alcaraz Alfaro</apellidos>
+                    <telefono>783 125 636</telefono>
+                    <direccion>
+                        <calle>Hernan Cortes</calle>
+                        <ciudad>Alhaurín el Grande</ciudad>
+                        <codigo_postal>29120</codigo_postal>
+                        <provincia>Malaga</provincia>
+                    </direccion>
+                    <correo_electronico>MerlinaAlcarazAlfaro@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>13/03/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>12</numero_pedido>
+                <fecha_de_compra>15/04/2020</fecha_de_compra>
+                <fecha_de_entrega>16/02/2020</fecha_de_entrega>
+                <total_factura>310€</total_factura>
+                <producto>
+                    <nombre_producto>Lavadora</nombre_producto>
+                    <referencia>aab2</referencia>
+                    <precio>297,99€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Yamal</nombre>
+                    <apellidos>Pabon Roybal</apellidos>
+                    <telefono>621 601 278</telefono>
+                    <direccion>
+                        <calle>Avenida Rio Nalon</calle>
+                        <ciudad>Navalcarnero</ciudad>
+                        <codigo_postal>28600</codigo_postal>
+                        <provincia>Madrid</provincia>
+                    </direccion>
+                    <correo_electronico>YamalPabonRoybal@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>20/04/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>13</numero_pedido>
+                <fecha_de_compra>20/04/2020</fecha_de_compra>
+                <fecha_de_entrega>21/02/2020</fecha_de_entrega>
+                <total_factura>1100€</total_factura>
+                <producto>
+                    <nombre_producto>Portatil "15"</nombre_producto>
+                    <referencia>aab3</referencia>
+                    <precio>549,99€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Karol</nombre>
+                    <apellidos>Valladdares Sanches</apellidos>
+                    <telefono>641 364 228</telefono>
+                    <direccion>
+                        <calle>El Roqueo</calle>
+                        <ciudad>Porto do Son</ciudad>
+                        <codigo_postal>15970</codigo_postal>
+                        <provincia>La Coruña</provincia>
+                    </direccion>
+                    <correo_electronico>KarolValladaresSanches@armyspy.com</correo_electronico>
+                    <fecha_de_inclusion>30/03/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>14</numero_pedido>
+                <fecha_de_compra>05/05/2020</fecha_de_compra>
+                <fecha_de_entrega>06/05/2020</fecha_de_entrega>
+                <total_factura>190€</total_factura>
+                <producto>
+                    <nombre_producto>Disco duro 4TB</nombre_producto>
+                    <referencia>aab4€</referencia>
+                    <precio>89,45€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Iciar</nombre>
+                    <apellidos>Palomino Pedroza</apellidos>
+                    <telefono>602 088 169</telefono>
+                    <direccion>
+                        <calle>Puerto Lugar</calle>
+                        <ciudad>Cómpeta</ciudad>
+                        <codigo_postal>29754 </codigo_postal>
+                        <provincia>Malaga</provincia>
+                    </direccion>
+                    <correo_electronico>IziarPalominoPedroza@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>29/01/2020</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>15</numero_pedido>
+                <fecha_de_compra>14/05/2020</fecha_de_compra>
+                <fecha_de_entrega>15/05/2020</fecha_de_entrega>
+                <total_factura>60€</total_factura>
+                <producto>
+                    <nombre_producto>Impresora Multifuncion</nombre_producto>
+                    <referencia>aab5</referencia>
+                    <precio>54,85€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Yamal</nombre>
+                    <apellidos>Pabon Roybal</apellidos>
+                    <telefono>621 601 278</telefono>
+                    <direccion>
+                        <calle>Avenida Rio Nalon</calle>
+                        <ciudad>Navalcarnero</ciudad>
+                        <codigo_postal>28600</codigo_postal>
+                        <provincia>Madrid</provincia>
+                    </direccion>
+                    <correo_electronico>YamalPabonRoybal@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>20/04/2020</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>16</numero_pedido>
+                <fecha_de_compra>20/05/2020</fecha_de_compra>
+                <fecha_de_entrega>21/05/2020</fecha_de_entrega>
+                <total_factura>150€</total_factura>
+                <producto>
+                    <nombre_producto>Mando PS5</nombre_producto>
+                    <referencia>aab6</referencia>
+                    <precio>69,89€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Eberardo</nombre>
+                    <apellidos>Robles Carranza</apellidos>
+                    <telefono>796 751 377</telefono>
+                    <direccion>
+                        <calle>Puerta Nueva</calle>
+                        <ciudad>Antigua</ciudad>
+                        <codigo_postal>35630</codigo_postal>
+                        <provincia>Las Palmas</provincia>
+                    </direccion>
+                    <correo_electronico>EberardoRoblesCarranza@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>30/04/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>17</numero_pedido>
+                <fecha_de_compra>26/05/2020</fecha_de_compra>
+                <fecha_de_entrega>27/02/2020</fecha_de_entrega>
+                <total_factura>270€</total_factura>
+                <producto>
+                    <nombre_producto>Microondas</nombre_producto>
+                    <referencia>aab7</referencia>
+                    <precio>129,75€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Karol</nombre>
+                    <apellidos>Valladdares Sanches</apellidos>
+                    <telefono>641 364 228</telefono>
+                    <direccion>
+                        <calle>El Roqueo</calle>
+                        <ciudad>Porto do Son</ciudad>
+                        <codigo_postal>15970</codigo_postal>
+                        <provincia>La Coruña</provincia>
+                    </direccion>
+                    <correo_electronico>KarolValladaresSanches@armyspy.com</correo_electronico>
+                    <fecha_de_inclusion>30/03/2020</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>18</numero_pedido>
+                <fecha_de_compra>09/06/2020</fecha_de_compra>
+                <fecha_de_entrega>10/06/2020</fecha_de_entrega>
+                <total_factura>700€</total_factura>
+                <producto>
+                    <nombre_producto>Patinete Elecetrico</nombre_producto>
+                    <referencia>aab8</referencia>
+                    <precio>349,23€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Ara</nombre>
+                    <apellidos>Zamudio Reyes</apellidos>
+                    <telefono>758 938 416</telefono>
+                    <direccion>
+                        <calle>Rua da Rapina</calle>
+                        <ciudad>Tabera de Abajo</ciudad>
+                        <codigo_postal>37491</codigo_postal>
+                        <provincia>Salamanca</provincia>
+                    </direccion>
+                    <correo_electronico>AraZamudioReyes@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>16/06/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>19</numero_pedido>
+                <fecha_de_compra>16/06/2020</fecha_de_compra>
+                <fecha_de_entrega>17/06/2020</fecha_de_entrega>
+                <total_factura>240€</total_factura>
+                <producto>
+                    <nombre_producto>Cafetera Express</nombre_producto>
+                    <referencia>aab9</referencia>
+                    <precio>229,55€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Orson</nombre>
+                    <apellidos>Aviles Laboy</apellidos>
+                    <telefono>772 907 854</telefono>
+                    <direccion>
+                        <calle>Avenida Los llanos,</calle>
+                        <ciudad>Cidamón</ciudad>
+                        <codigo_postal>26291</codigo_postal>
+                        <provincia>La Rioja</provincia>
+                    </direccion>
+                    <correo_electronico>OrsonAvilesLaboy@armyspy.com</correo_electronico>
+                    <fecha_de_inclusion>22/06/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>20</numero_pedido>
+                <fecha_de_compra>25/06/2020</fecha_de_compra>
+                <fecha_de_entrega>29/06/2020</fecha_de_entrega>
+                <total_factura>980€</total_factura>
+                <producto>
+                    <nombre_producto>Frigorifico combi</nombre_producto>
+                    <referencia>aab10</referencia>
+                    <precio>959,49€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+        </trimestre>
+        <trimestre epoca='3'>
+            <pedido>
+                <cliente>
+                    <nombre>Leo</nombre>
+                    <apellidos>Godinez Becerra</apellidos>
+                    <telefono>613 904 098</telefono>
+                    <direccion>
+                        <calle>Arana</calle>
+                        <ciudad>Letur</ciudad>
+                        <codigo_postal>02434</codigo_postal>
+                        <provincia>Albacete</provincia>
+                    </direccion>
+                    <correo_electronico>LeoGodinezBecerra@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>30/04/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>21</numero_pedido>
+                <fecha_de_compra>01/07/2020</fecha_de_compra>
+                <fecha_de_entrega>02/07/2020</fecha_de_entrega>
+                <total_factura>700€</total_factura>
+                <producto>
+                    <nombre_producto>Movil Xiaomi</nombre_producto>
+                    <referencia>aac1</referencia>
+                    <precio>349,89€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Catherine</nombre>
+                    <apellidos>Rael Rabledo</apellidos>
+                    <telefono>729 470 847</telefono>
+                    <direccion>
+                        <calle>Canónigo Valiño</calle>
+                        <ciudad>Massanassa</ciudad>
+                        <codigo_postal>46470</codigo_postal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo_electronico>CatherineRaelRobledo@teleworm.us</correo_electronico>
+                    <fecha_de_inclusion>10/07/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>22</numero_pedido>
+                <fecha_de_compra>10/07/2020</fecha_de_compra>
+                <fecha_de_entrega>11/07/2020</fecha_de_entrega>
+                <total_factura>1110</total_factura>
+                <producto>
+                    <nombre_producto>TV QLed "65"</nombre_producto>
+                    <referencia>aac2</referencia>
+                    <precio>1099,99€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Leo</nombre>
+                    <apellidos>Godinez Becerra</apellidos>
+                    <telefono>613 904 098</telefono>
+                    <direccion>
+                        <calle>Arana</calle>
+                        <ciudad>Letur</ciudad>
+                        <codigo_postal>02434</codigo_postal>
+                        <provincia>Albacete</provincia>
+                    </direccion>
+                    <correo_electronico>LeoGodinezBecerra@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>12/07/2020</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>23</numero_pedido>
+                <fecha_de_compra>20/07/2020</fecha_de_compra>
+                <fecha_de_entrega>21/07/2020</fecha_de_entrega>
+                <total_factura>540€</total_factura>
+                <producto>
+                    <nombre_producto>Portatil Lenovo Ideapad</nombre_producto>
+                    <referencia>aac3</referencia>
+                    <precio>529,10€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Daniel</nombre>
+                    <apellidos>Echevarria Cervantes</apellidos>
+                    <telefono>645 639 661</telefono>
+                    <direccion>
+                        <calle>Antonio Vázquez</calle>
+                        <ciudad> La Guancha</ciudad>
+                        <codigo_postal>38440</codigo_postal>
+                        <provincia>Santa Cruz de Tenerife</provincia>
+                    </direccion>
+                    <correo_electronico>DanieleEchevarriaCervantes@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>30/07/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>24</numero_pedido>
+                <fecha_de_compra>04/08/2020</fecha_de_compra>
+                <fecha_de_entrega>05/08/2020</fecha_de_entrega>
+                <total_factura>1010€</total_factura>
+                <producto>
+                    <nombre_producto>Apple Macbook Air 2020</nombre_producto>
+                    <referencia>aac4</referencia>
+                    <precio>999€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Jose Luis</nombre>
+                    <apellidos>Luevano Jimenez</apellidos>
+                    <telefono>787 086 128</telefono>
+                    <direccion>
+                        <calle>Constitución</calle>
+                        <ciudad>Doñinos de Salamanca</ciudad>
+                        <codigo_postal>37120</codigo_postal>
+                        <provincia>Salamanca</provincia>
+                    </direccion>
+                    <correo_electronico>JoseLuisLuevanoJimenez@teleworm.us</correo_electronico>
+                    <fecha_de_inclusion>30/07/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>25</numero_pedido>
+                <fecha_de_compra>04/08/2020</fecha_de_compra>
+                <fecha_de_entrega>05/08/2020</fecha_de_entrega>
+                <total_factura>1000€</total_factura>
+                <producto>
+                    <nombre_producto>Depiladora IPL</nombre_producto>
+                    <referencia>aac5</referencia>
+                    <precio>499€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Ezequiel</nombre>
+                    <apellidos>Castellanos Medrano</apellidos>
+                    <telefono>692 456 741</telefono>
+                    <direccion>
+                        <calle>Plaza Fuensanta</calle>
+                        <ciudad>Larouco</ciudad>
+                        <codigo_postal>32358</codigo_postal>
+                        <provincia>Ourense</provincia>
+                    </direccion>
+                    <correo_electronico>EzechieleCastellanosMedrano@teleworm.us</correo_electronico>
+                    <fecha_de_inclusion>12/08/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>26</numero_pedido>
+                <fecha_de_compra>20/08/2020</fecha_de_compra>
+                <fecha_de_entrega>21/08/2020</fecha_de_entrega>
+                <total_factura>70€</total_factura>
+                <producto>
+                    <nombre_producto>Irrigador Bucal</nombre_producto>
+                    <referencia>aac6</referencia>
+                    <precio>59€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Daniel</nombre>
+                    <apellidos>Echevarria Cervantes</apellidos>
+                    <telefono>645 639 661</telefono>
+                    <direccion>
+                        <calle>Antonio Vázquez</calle>
+                        <ciudad> La Guancha</ciudad>
+                        <codigo_postal>38440</codigo_postal>
+                        <provincia>Santa Cruz de Tenerife</provincia>
+                    </direccion>
+                    <correo_electronico>DanieleEchevarriaCervantes@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>30/07/2020</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>27</numero_pedido>
+                <fecha_de_compra>22/08/2020</fecha_de_compra>
+                <fecha_de_entrega>23/08/2020</fecha_de_entrega>
+                <total_factura>630€</total_factura>
+                <producto>
+                    <nombre_producto>PlayStation 5</nombre_producto>
+                    <referencia>aac7</referencia>
+                    <precio>619€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Jose Luis</nombre>
+                    <apellidos>Luevano Jimenez</apellidos>
+                    <telefono>787 086 128</telefono>
+                    <direccion>
+                        <calle>Constitución</calle>
+                        <ciudad>Doñinos de Salamanca</ciudad>
+                        <codigo_postal>37120</codigo_postal>
+                        <provincia>Salamanca</provincia>
+                    </direccion>
+                    <correo_electronico>JoseLuisLuevanoJimenez@teleworm.us</correo_electronico>
+                    <fecha_de_inclusion>30/07/2020</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>28</numero_pedido>
+                <fecha_de_compra>17/09/2020</fecha_de_compra>
+                <fecha_de_entrega>19/09/2020</fecha_de_entrega>
+                <total_factura>307€</total_factura>
+                <producto>
+                    <nombre_producto>Airpods Pro</nombre_producto>
+                    <referencia>aac8</referencia>
+                    <precio>277€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Hugo</nombre>
+                    <apellidos>Molina Carvajal</apellidos>
+                    <telefono>740 463 743</telefono>
+                    <direccion>
+                        <calle>Cuesta del alamo</calle>
+                        <ciudad>Alameda</ciudad>
+                        <codigo_postal>29530</codigo_postal>
+                        <provincia>Malaga</provincia>
+                    </direccion>
+                    <correo_electronico>AlessiaMolinaCarvajal@armyspy.com</correo_electronico>
+                    <fecha_de_inclusion>16/08/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>29</numero_pedido>
+                <fecha_de_compra>25/09/2020</fecha_de_compra>
+                <fecha_de_entrega>29/09/2020</fecha_de_entrega>
+                <total_factura>392€</total_factura>
+                <producto>
+                    <nombre_producto>Samsung Galaxy Watch</nombre_producto>
+                    <referencia>aac9</referencia>
+                    <precio>189€</precio>
+                    <unidades>12</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Eva</nombre>
+                    <apellidos>Corona Urena</apellidos>
+                    <telefono>639 990 165</telefono>
+                    <direccion>
+                        <calle>Rúa de San Pedro</calle>
+                        <ciudad>Montejo</ciudad>
+                        <codigo_postal>37795</codigo_postal>
+                        <provincia>Salamanca</provincia>
+                    </direccion>
+                    <correo_electronico>DanieleEchevarriaCervantes@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>22/09/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>30</numero_pedido>
+                <fecha_de_compra>26/09/2020</fecha_de_compra>
+                <fecha_de_entrega>29/09/2020</fecha_de_entrega>
+                <total_factura>489€</total_factura>
+                <producto>
+                    <nombre_producto>Apple Watch Series 7</nombre_producto>
+                    <referencia>aac10</referencia>
+                    <precio>459€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+        </trimestre>
+        <trimestre epoca='4'>
+            <pedido>
+                <cliente>
+                    <nombre>Marta</nombre>
+                    <apellidos>Montanez Godoy</apellidos>
+                    <telefono>637 990 807</telefono>
+                    <direccion>
+                        <calle>Avenida Explanada Barnuevo</calle>
+                        <ciudad>San Nicolas de Tolentino</ciudad>
+                        <codigo_postal>35470</codigo_postal>
+                        <provincia>Las Palmas</provincia>
+                    </direccion>
+                    <correo_electronico>MirthaMontanezGodoy@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>30/04/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>31</numero_pedido>
+                <fecha_de_compra>01/10/2020</fecha_de_compra>
+                <fecha_de_entrega>02/10/2020</fecha_de_entrega>
+                <total_factura>596€</total_factura>
+                <producto>
+                    <nombre_producto>Apple Watch SE</nombre_producto>
+                    <referencia>aad1</referencia>
+                    <precio>288€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>David</nombre>
+                    <apellidos>Avila Esparza</apellidos>
+                    <telefono>611 045 186</telefono>
+                    <direccion>
+                        <calle>Rio Segura</calle>
+                        <ciudad>Caparroso</ciudad>
+                        <codigo_postal>31380</codigo_postal>
+                        <provincia>Navarra</provincia>
+                    </direccion>
+                    <correo_electronico>BarbeaAvilaEsparza@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>04/04/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>32</numero_pedido>
+                <fecha_de_compra>01/10/2020</fecha_de_compra>
+                <fecha_de_entrega>02/10/2020</fecha_de_entrega>
+                <total_factura>112€</total_factura>
+                <producto>
+                    <nombre_producto>Auriculares Galaxy Buds 2</nombre_producto>
+                    <referencia>aad2</referencia>
+                    <precio>105€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Emilio</nombre>
+                    <apellidos>Griego Peres</apellidos>
+                    <telefono>761 702 485</telefono>
+                    <direccion>
+                        <calle>Socampo</calle>
+                        <ciudad>Herguijuela de la Sierra</ciudad>
+                        <codigo_postal>37619</codigo_postal>
+                        <provincia>Salamanca</provincia>
+                    </direccion>
+                    <correo_electronico>MirthaMontanezGodoy@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>27/03/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>33</numero_pedido>
+                <fecha_de_compra>12/10/2020</fecha_de_compra>
+                <fecha_de_entrega>15/10/2020</fecha_de_entrega>
+                <total_factura>305€</total_factura>
+                <producto>
+                    <nombre_producto>Apple Watch SE</nombre_producto>
+                    <referencia>aad3</referencia>
+                    <precio>288€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Jimena</nombre>
+                    <apellidos>Sepulveda Torres</apellidos>
+                    <telefono>690 763 496</telefono>
+                    <direccion>
+                        <calle>El Roqueo</calle>
+                        <ciudad>Quintanar del Rey</ciudad>
+                        <codigo_postal>16220</codigo_postal>
+                        <provincia>Cuenca</provincia>
+                    </direccion>
+                    <correo_electronico>JimenaSepulvedaTorres@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>30/04/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>34</numero_pedido>
+                <fecha_de_compra>26/10/2020</fecha_de_compra>
+                <fecha_de_entrega>30/10/2020</fecha_de_entrega>
+                <total_factura>495€</total_factura>
+                <producto>
+                    <nombre_producto>Silla Gaming</nombre_producto>
+                    <referencia>aad4</referencia>
+                    <precio>239€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Marta</nombre>
+                    <apellidos>Montanez Godoy</apellidos>
+                    <telefono>637 990 807</telefono>
+                    <direccion>
+                        <calle>Avenida Explanada Barnuevo</calle>
+                        <ciudad>San Nicolas de Tolentino</ciudad>
+                        <codigo_postal>35470</codigo_postal>
+                        <provincia>Las Palmas</provincia>
+                    </direccion>
+                    <correo_electronico>MirthaMontanezGodoy@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>30/04/2020</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>35</numero_pedido>
+                <fecha_de_compra>06/11/2020</fecha_de_compra>
+                <fecha_de_entrega>08/10/2020</fecha_de_entrega>
+                <total_factura>128€</total_factura>
+                <producto>
+                    <nombre_producto>Mando PS4</nombre_producto>
+                    <referencia>aad5</referencia>
+                    <precio>60€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Javi</nombre>
+                    <apellidos>Acevedo Alanis</apellidos>
+                    <telefono>663 419 350</telefono>
+                    <direccion>
+                        <calle>Carril de la fuente</calle>
+                        <ciudad>Fontanarejo</ciudad>
+                        <codigo_postal>13193</codigo_postal>
+                        <provincia>Ciudad Real</provincia>
+                    </direccion>
+                    <correo_electronico>JaviAcevedoAlanis@armyspy.com</correo_electronico>
+                    <fecha_de_inclusion>30/04/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>36</numero_pedido>
+                <fecha_de_compra>11/11/2020</fecha_de_compra>
+                <fecha_de_entrega>13/11/2020</fecha_de_entrega>
+                <total_factura>165€</total_factura>
+                <producto>
+                    <nombre_producto>Pulsera de actividad para niños</nombre_producto>
+                    <referencia>aad6</referencia>
+                    <precio>78€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Marta</nombre>
+                    <apellidos>Montanez Godoy</apellidos>
+                    <telefono>637 990 807</telefono>
+                    <direccion>
+                        <calle>Avenida Explanada Barnuevo</calle>
+                        <ciudad>San Nicolas de Tolentino</ciudad>
+                        <codigo_postal>35470</codigo_postal>
+                        <provincia>Las Palmas</provincia>
+                    </direccion>
+                    <correo_electronico>MirthaMontanezGodoy@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>30/04/2020</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>37</numero_pedido>
+                <fecha_de_compra>13/11/2020</fecha_de_compra>
+                <fecha_de_entrega>14/11/2020</fecha_de_entrega>
+                <total_factura>55€</total_factura>
+                <producto>
+                    <nombre_producto>Correa para Apple Watch SE</nombre_producto>
+                    <referencia>aad7</referencia>
+                    <precio>50€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Kamilia</nombre>
+                    <apellidos>Tamayo Pelayao</apellidos>
+                    <telefono>797 762 080</telefono>
+                    <direccion>
+                        <calle>Plazuela do Porto</calle>
+                        <ciudad>El Sauzal</ciudad>
+                        <codigo_postal>3836</codigo_postal>
+                        <provincia>Santa Cruz de Tenerife</provincia>
+                    </direccion>
+                    <correo_electronico>KamiliaTamayoPelayo@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>09/11/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>38</numero_pedido>
+                <fecha_de_compra>16/11/2020</fecha_de_compra>
+                <fecha_de_entrega>19/11/2020</fecha_de_entrega>
+                <total_factura>467€</total_factura>
+                <producto>
+                    <nombre_producto>Movil Realme</nombre_producto>
+                    <referencia>aad8</referencia>
+                    <precio>229€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Emilio</nombre>
+                    <apellidos>Griego Peres</apellidos>
+                    <telefono>761 702 485</telefono>
+                    <direccion>
+                        <calle>Socampo</calle>
+                        <ciudad>Herguijuela de la Sierra</ciudad>
+                        <codigo_postal>37619</codigo_postal>
+                        <provincia>Salamanca</provincia>
+                    </direccion>
+                    <correo_electronico>MirthaMontanezGodoy@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>27/03/2020</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>39</numero_pedido>
+                <fecha_de_compra>12/12/2020</fecha_de_compra>
+                <fecha_de_entrega>15/12/2020</fecha_de_entrega>
+                <total_factura>1300€</total_factura>
+                <producto>
+                    <nombre_producto>TV OLED "55"</nombre_producto>
+                    <referencia>aad9</referencia>
+                    <precio>1249€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Jimena</nombre>
+                    <apellidos>Sepulveda Torres</apellidos>
+                    <telefono>690 763 496</telefono>
+                    <direccion>
+                        <calle>El Roqueo</calle>
+                        <ciudad>Quintanar del Rey</ciudad>
+                        <codigo_postal>16220</codigo_postal>
+                        <provincia>Cuenca</provincia>
+                    </direccion>
+                    <correo_electronico>JimenaSepulvedaTorres@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>30/04/2020</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>40</numero_pedido>
+                <fecha_de_compra>22/12/2020</fecha_de_compra>
+                <fecha_de_entrega>29/12/2020</fecha_de_entrega>
+                <total_factura>75€</total_factura>
+                <producto>
+                    <nombre_producto>Cafetera de Capsulas</nombre_producto>
+                    <referencia>aad10</referencia>
+                    <precio>69€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+        </trimestre>
+    </año>
+    <año año='2021'>
+        <trimestre epoca='1'>
+            <pedido>
+                <cliente>
+                    <nombre>Sira</nombre>
+                    <apellidos>Vasquez Calvillo</apellidos>
+                    <telefono>732 664 958</telefono>
+                    <direccion>
+                        <calle>Cuesta del alamo</calle>
+                        <ciudad>Fuente de Piedra</ciudad>
+                        <codigo_postal>29520</codigo_postal>
+                        <provincia>Malaga</provincia>
+                    </direccion>
+                    <correo_electronico>SiraVasquezCalvillo@armyspy.com</correo_electronico>
+                    <fecha_de_inclusion>01/01/2021</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>41</numero_pedido>
+                <fecha_de_compra>07/01/2020</fecha_de_compra>
+                <fecha_de_entrega>08/01/2020</fecha_de_entrega>
+                <total_factura>812€</total_factura>
+                <producto>
+                    <nombre_producto>TV LED "75"</nombre_producto>
+                    <referencia>aaf1</referencia>
+                    <precio>789€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Tania</nombre>
+                    <apellidos>Montenergo Serna</apellidos>
+                    <telefono>625 295 764</telefono>
+                    <direccion>
+                        <calle>Herreria</calle>
+                        <ciudad>Beas de Granada</ciudad>
+                        <codigo_postal>18184</codigo_postal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo_electronico>TaniaMontenegroSerna@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>19/01/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>42</numero_pedido>
+                <fecha_de_compra>13/01/2021</fecha_de_compra>
+                <fecha_de_entrega>15/01/2021</fecha_de_entrega>
+                <total_factura>503€</total_factura>
+                <producto>
+                    <nombre_producto>Secadora</nombre_producto>
+                    <referencia>aaf2</referencia>
+                    <precio>490€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Lucia</nombre>
+                    <apellidos>Gaitan Batista</apellidos>
+                    <telefono>769 170 227</telefono>
+                    <direccion>
+                        <calle>San Sebastián</calle>
+                        <ciudad>Fernancaballero</ciudad>
+                        <codigo_postal>13140</codigo_postal>
+                        <provincia>Ciudad Real</provincia>
+                    </direccion>
+                    <correo_electronico>LucianGaitanBatista@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>27/12/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>43</numero_pedido>
+                <fecha_de_compra>19/01/2021</fecha_de_compra>
+                <fecha_de_entrega>20/01/2021</fecha_de_entrega>
+                <total_factura>130€</total_factura>
+                <producto>
+                    <nombre_producto>Microondas</nombre_producto>
+                    <referencia>aaf3</referencia>
+                    <precio>60€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Joselín</nombre>
+                    <apellidos>Llarnas Alva</apellidos>
+                    <telefono>606 398 285</telefono>
+                    <direccion>
+                        <calle>Cruce Casa de Postas</calle>
+                        <ciudad>Huétor Tájar</ciudad>
+                        <codigo_postal>18360</codigo_postal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo_electronico>JoselinLlarnasAlva@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>01/01/2021</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>44</numero_pedido>
+                <fecha_de_compra>02/02/2021</fecha_de_compra>
+                <fecha_de_entrega>03/02/2021</fecha_de_entrega>
+                <total_factura>348€</total_factura>
+                <producto>
+                    <nombre_producto>Tablet Lenovo Tab M10</nombre_producto>
+                    <referencia>aaf4</referencia>
+                    <precio>169€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Dani</nombre>
+                    <apellidos>Espinal Cazares</apellidos>
+                    <telefono>610 897 871</telefono>
+                    <direccion>
+                        <calle>Paseo del Atlántico</calle>
+                        <ciudad>Roses</ciudad>
+                        <codigo_postal>17480</codigo_postal>
+                        <provincia>Girona</provincia>
+                    </direccion>
+                    <correo_electronico>DannyEspinalCazares@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>7/10/2019</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>45</numero_pedido>
+                <fecha_de_compra>05/02/2021</fecha_de_compra>
+                <fecha_de_entrega>08/02/2021</fecha_de_entrega>
+                <total_factura>412€</total_factura>
+                <producto>
+                    <nombre_producto>Kit Camara Reflex</nombre_producto>
+                    <referencia>aaf5</referencia>
+                    <precio>399€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Lucia</nombre>
+                    <apellidos>Gaitan Batista</apellidos>
+                    <telefono>769 170 227</telefono>
+                    <direccion>
+                        <calle>San Sebastián</calle>
+                        <ciudad>Fernancaballero</ciudad>
+                        <codigo_postal>13140</codigo_postal>
+                        <provincia>Ciudad Real</provincia>
+                    </direccion>
+                    <correo_electronico>LucianGaitanBatista@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>27/12/2020</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>46</numero_pedido>
+                <fecha_de_compra>13/02/2021</fecha_de_compra>
+                <fecha_de_entrega>15/02/2021</fecha_de_entrega>
+                <total_factura>420€</total_factura>
+                <producto>
+                    <nombre_producto>Patinete Electrico</nombre_producto>
+                    <referencia>aaf6</referencia>
+                    <precio>399€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Sira</nombre>
+                    <apellidos>Vasquez Calvillo</apellidos>
+                    <telefono>732 664 958</telefono>
+                    <direccion>
+                        <calle>Cuesta del alamo</calle>
+                        <ciudad>Fuente de Piedra</ciudad>
+                        <codigo_postal>29520</codigo_postal>
+                        <provincia>Malaga</provincia>
+                    </direccion>
+                    <correo_electronico>SiraVasquezCalvillo@armyspy.com</correo_electronico>
+                    <fecha_de_inclusion>01/01/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>47</numero_pedido>
+                <fecha_de_compra>25/02/2021</fecha_de_compra>
+                <fecha_de_entrega>30/02/2021</fecha_de_entrega>
+                <total_factura>130€</total_factura>
+                <producto>
+                    <nombre_producto>Apple Airpods</nombre_producto>
+                    <referencia>aaf7</referencia>
+                    <precio>119€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Lucia</nombre>
+                    <apellidos>Gaitan Batista</apellidos>
+                    <telefono>769 170 227</telefono>
+                    <direccion>
+                        <calle>San Sebastián</calle>
+                        <ciudad>Fernancaballero</ciudad>
+                        <codigo_postal>13140</codigo_postal>
+                        <provincia>Ciudad Real</provincia>
+                    </direccion>
+                    <correo_electronico>LucianGaitanBatista@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>27/12/2020</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>48</numero_pedido>
+                <fecha_de_compra>28/02/2021</fecha_de_compra>
+                <fecha_de_entrega>05/03/2021</fecha_de_entrega>
+                <total_factura>919€</total_factura>
+                <producto>
+                    <nombre_producto>Apple Watch Ultra</nombre_producto>
+                    <referencia>aaf8</referencia>
+                    <precio>909€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Dani</nombre>
+                    <apellidos>Espinal Cazares</apellidos>
+                    <telefono>610 897 871</telefono>
+                    <direccion>
+                        <calle>Paseo del Atlántico</calle>
+                        <ciudad>Roses</ciudad>
+                        <codigo_postal>17480</codigo_postal>
+                        <provincia>Girona</provincia>
+                    </direccion>
+                    <correo_electronico>DannyEspinalCazares@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>7/10/2019</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>49</numero_pedido>
+                <fecha_de_compra>07/03/2021</fecha_de_compra>
+                <fecha_de_entrega>10/03/2021</fecha_de_entrega>
+                <total_factura>362€</total_factura>
+                <producto>
+                    <nombre_producto>Samsung Galaxy A53</nombre_producto>
+                    <referencia>aaf9</referencia>
+                    <precio>349€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Tania</nombre>
+                    <apellidos>Montenergo Serna</apellidos>
+                    <telefono>625 295 764</telefono>
+                    <direccion>
+                        <calle>Herreria</calle>
+                        <ciudad>Beas de Granada</ciudad>
+                        <codigo_postal>18184</codigo_postal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo_electronico>TaniaMontenegroSerna@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>19/01/2021</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>50</numero_pedido>
+                <fecha_de_compra>16/03/2021</fecha_de_compra>
+                <fecha_de_entrega>25/03/2021</fecha_de_entrega>
+                <total_factura>579€</total_factura>
+                <producto>
+                    <nombre_producto>Iphone 11</nombre_producto>
+                    <referencia>aaf10</referencia>
+                    <precio>569€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+        </trimestre>
+        <trimestre epoca='2'>
+            <pedido>
+                <cliente>
+                    <nombre>Mara</nombre>
+                    <apellidos>Toro Velazquez</apellidos>
+                    <telefono>756 920 955</telefono>
+                    <direccion>
+                        <calle>Cuesta del alamo</calle>
+                        <ciudad>Fuente de Piedra</ciudad>
+                        <codigo_postal>29520</codigo_postal>
+                        <provincia>Malaga</provincia>
+                    </direccion>
+                    <correo_electronico>MaraToroVelazquez@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>09/02/2021</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>51</numero_pedido>
+                <fecha_de_compra>09/04/2021</fecha_de_compra>
+                <fecha_de_entrega>08/01/2021</fecha_de_entrega>
+                <total_factura>35€</total_factura>
+                <producto>
+                    <nombre_producto>Secador de pelo</nombre_producto>
+                    <referencia>aag1</referencia>
+                    <precio>14€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Edwin</nombre>
+                    <apellidos>Guzman Mesa</apellidos>
+                    <telefono>635 397 093</telefono>
+                    <direccion>
+                        <calle>Plaza Maior</calle>
+                        <ciudad>Valderrodrigo</ciudad>
+                        <codigo_postal>37219</codigo_postal>
+                        <provincia>Salamanca</provincia>
+                    </direccion>
+                    <correo_electronico>MaraToroVelazquez@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>09/02/2021</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>52</numero_pedido>
+                <fecha_de_compra>09/04/2021</fecha_de_compra>
+                <fecha_de_entrega>08/01/2021</fecha_de_entrega>
+                <total_factura>79€</total_factura>
+                <producto>
+                    <nombre_producto>Mando PS5</nombre_producto>
+                    <referencia>aag2</referencia>
+                    <precio>70€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Mariana</nombre>
+                    <apellidos>Pina Baca</apellidos>
+                    <telefono>652 800 170</telefono>
+                    <direccion>
+                        <calle>Prolongacion San Sebastian</calle>
+                        <ciudad>Valdelarco</ciudad>
+                        <codigo_postal>21291</codigo_postal>
+                        <provincia>Huelva</provincia>
+                    </direccion>
+                    <correo_electronico>MarianaPinaBaca@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>05/10/2019</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>53</numero_pedido>
+                <fecha_de_compra>15/04/2021</fecha_de_compra>
+                <fecha_de_entrega>16/01/2021</fecha_de_entrega>
+                <total_factura>296€</total_factura>
+                <producto>
+                    <nombre_producto>Auriculares Huawei</nombre_producto>
+                    <referencia>aag3</referencia>
+                    <precio>140€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Edwin</nombre>
+                    <apellidos>Guzman Mesa</apellidos>
+                    <telefono>635 397 093</telefono>
+                    <direccion>
+                        <calle>Plaza Maior</calle>
+                        <ciudad>Valderrodrigo</ciudad>
+                        <codigo_postal>37219</codigo_postal>
+                        <provincia>Salamanca</provincia>
+                    </direccion>
+                    <correo_electronico>MaraToroVelazquez@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>09/02/2021</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>54</numero_pedido>
+                <fecha_de_compra>16/04/2021</fecha_de_compra>
+                <fecha_de_entrega>17/01/2021</fecha_de_entrega>
+                <total_factura>628€</total_factura>
+                <producto>
+                    <nombre_producto>Playstation 5</nombre_producto>
+                    <referencia>aag4</referencia>
+                    <precio>619€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Albin</nombre>
+                    <apellidos>Suarez Abreu</apellidos>
+                    <telefono>627 227 374</telefono>
+                    <direccion>
+                        <calle>Plaza Colón</calle>
+                        <ciudad>Torrecilla en Cameros</ciudad>
+                        <codigo_postal>26100</codigo_postal>
+                        <provincia>La Rioja</provincia>
+                    </direccion>
+                    <correo_electronico>LorenzFriasCastaneda@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>19/08/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>55</numero_pedido>
+                <fecha_de_compra>23/04/2021</fecha_de_compra>
+                <fecha_de_entrega>05/05/2021</fecha_de_entrega>
+                <total_factura>640€</total_factura>
+                <producto>
+                    <nombre_producto>TV LED HAIER "43"</nombre_producto>
+                    <referencia>aag5</referencia>
+                    <precio>319€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Goyo</nombre>
+                    <apellidos>Rivera Prieto</apellidos>
+                    <telefono>683 759 818</telefono>
+                    <direccion>
+                        <calle>Valadouro</calle>
+                        <ciudad>Maruri-Jatabe</ciudad>
+                        <codigo_postal>48112</codigo_postal>
+                        <provincia>Vizcaya</provincia>
+                    </direccion>
+                    <correo_electronico>PanfiloJaquezCepeda@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>05/11/2018</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>56</numero_pedido>
+                <fecha_de_compra>05/05/2021</fecha_de_compra>
+                <fecha_de_entrega>08/05/2021</fecha_de_entrega>
+                <total_factura>335€</total_factura>
+                <producto>
+                    <nombre_producto>Portatil Lenovo</nombre_producto>
+                    <referencia>aag6</referencia>
+                    <precio>326€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Lizbeth</nombre>
+                    <apellidos>Arreola Almanza</apellidos>
+                    <telefono>635 397 093</telefono>
+                    <direccion>
+                        <calle>Plaza Maior</calle>
+                        <ciudad>Valderrodrigo</ciudad>
+                        <codigo_postal>37219</codigo_postal>
+                        <provincia>Salamanca</provincia>
+                    </direccion>
+                    <correo_electronico>LizbethArreolaAlmanza@teleworm.us</correo_electronico>
+                    <fecha_de_inclusion>16/02/2021</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>57</numero_pedido>
+                <fecha_de_compra>09/05/2021</fecha_de_compra>
+                <fecha_de_entrega>13/05/2021</fecha_de_entrega>
+                <total_factura>410€</total_factura>
+                <producto>
+                    <nombre_producto>Samsung Galaxy Watch</nombre_producto>
+                    <referencia>aag7</referencia>
+                    <precio>199€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Lizbeth</nombre>
+                    <apellidos>Arreola Almanza</apellidos>
+                    <telefono>635 397 093</telefono>
+                    <direccion>
+                        <calle>Plaza Maior</calle>
+                        <ciudad>Valderrodrigo</ciudad>
+                        <codigo_postal>37219</codigo_postal>
+                        <provincia>Salamanca</provincia>
+                    </direccion>
+                    <correo_electronico>LizbethArreolaAlmanza@teleworm.us</correo_electronico>
+                    <fecha_de_inclusion>16/02/2021</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>58</numero_pedido>
+                <fecha_de_compra>16/05/2021</fecha_de_compra>
+                <fecha_de_entrega>17/05/2021</fecha_de_entrega>
+                <total_factura>38€</total_factura>
+                <producto>
+                    <nombre_producto>Correa para Samsung Galaxy Watch</nombre_producto>
+                    <referencia>aag8</referencia>
+                    <precio>31€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Albin</nombre>
+                    <apellidos>Suarez Abreu</apellidos>
+                    <telefono>627 227 374</telefono>
+                    <direccion>
+                        <calle>Plaza Colón</calle>
+                        <ciudad>Torrecilla en Cameros</ciudad>
+                        <codigo_postal>26100</codigo_postal>
+                        <provincia>La Rioja</provincia>
+                    </direccion>
+                    <correo_electronico>LorenzFriasCastaneda@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>19/08/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>59</numero_pedido>
+                <fecha_de_compra>20/05/2021</fecha_de_compra>
+                <fecha_de_entrega>29/05/2021</fecha_de_entrega>
+                <total_factura>197€</total_factura>
+                <producto>
+                    <nombre_producto>Barra de sonido</nombre_producto>
+                    <referencia>aag9</referencia>
+                    <precio>185€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Edwin</nombre>
+                    <apellidos>Guzman Mesa</apellidos>
+                    <telefono>635 397 093</telefono>
+                    <direccion>
+                        <calle>Plaza Maior</calle>
+                        <ciudad>Valderrodrigo</ciudad>
+                        <codigo_postal>37219</codigo_postal>
+                        <provincia>Salamanca</provincia>
+                    </direccion>
+                    <correo_electronico>MaraToroVelazquez@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>09/02/2017</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>60</numero_pedido>
+                <fecha_de_compra>05/06/2021</fecha_de_compra>
+                <fecha_de_entrega>16/06/2021</fecha_de_entrega>
+                <total_factura>53€</total_factura>
+                <producto>
+                    <nombre_producto>Funda para mando de PS5</nombre_producto>
+                    <referencia>aag10</referencia>
+                    <precio>41€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+        </trimestre>
+        <trimestre epoca='3'>
+            <pedido>
+                <cliente>
+                    <nombre>Eladio</nombre>
+                    <apellidos>Lozano Jaimes</apellidos>
+                    <telefono>756 920 955</telefono>
+                    <direccion>
+                        <calle>Fernández de Leceta</calle>
+                        <ciudad>Callosa d'En Sarrià</ciudad>
+                        <codigo_postal>03510</codigo_postal>
+                        <provincia>Alicante</provincia>
+                    </direccion>
+                    <correo_electronico>FuscaRoldanVillasenor@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>19/03/2021</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>61</numero_pedido>
+                <fecha_de_compra>09/07/2021</fecha_de_compra>
+                <fecha_de_entrega>10/07/2021</fecha_de_entrega>
+                <total_factura>35</total_factura>
+                <producto>
+                    <nombre_producto>Rasuradora</nombre_producto>
+                    <referencia>aah1</referencia>
+                    <precio>14</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Nuncia</nombre>
+                    <apellidos>Gutierrez Hinojosa</apellidos>
+                    <telefono>750 040 995</telefono>
+                    <direccion>
+                        <calle>Reiseñor</calle>
+                        <ciudad>Villafranca de los Caballeros</ciudad>
+                        <codigo_postal>45730</codigo_postal>
+                        <provincia>Alicante</provincia>
+                    </direccion>
+                    <correo_electronico>NunciaGutierrezHinojosa@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>18/03/2021</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>62</numero_pedido>
+                <fecha_de_compra>13/07/2021</fecha_de_compra>
+                <fecha_de_entrega>16/07/2021</fecha_de_entrega>
+                <total_factura>128€</total_factura>
+                <producto>
+                    <nombre_producto>Irrigador bucal</nombre_producto>
+                    <referencia>aah2</referencia>
+                    <precio>59€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Rosmina</nombre>
+                    <apellidos>Jazquez Esquibel</apellidos>
+                    <telefono>681 108 019</telefono>
+                    <direccion>
+                        <calle>Puerta Nueva</calle>
+                        <ciudad>Pontevedra</ciudad>
+                        <codigo_postal>36000</codigo_postal>
+                        <provincia>Pontevedra</provincia>
+                    </direccion>
+                    <correo_electronico>RosmiraJaquezEsquibel@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>19/03/2021</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>63</numero_pedido>
+                <fecha_de_compra>20/07/2021</fecha_de_compra>
+                <fecha_de_entrega>24/07/2021</fecha_de_entrega>
+                <total_factura>1259€</total_factura>
+                <producto>
+                    <nombre_producto>Barra de sonido</nombre_producto>
+                    <referencia>aah3</referencia>
+                    <precio>1249€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Nuncia</nombre>
+                    <apellidos>Gutierrez Hinojosa</apellidos>
+                    <telefono>750 040 995</telefono>
+                    <direccion>
+                        <calle>Reiseñor</calle>
+                        <ciudad>Villafranca de los Caballeros</ciudad>
+                        <codigo_postal>45730</codigo_postal>
+                        <provincia>Alicante</provincia>
+                    </direccion>
+                    <correo_electronico>NunciaGutierrezHinojosa@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>30/03/2021</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>64</numero_pedido>
+                <fecha_de_compra>28/07/2021</fecha_de_compra>
+                <fecha_de_entrega>31/07/2021</fecha_de_entrega>
+                <total_factura>110€</total_factura>
+                <producto>
+                    <nombre_producto>Correa Apple Watch</nombre_producto>
+                    <referencia>aah4</referencia>
+                    <precio>50€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Jerry</nombre>
+                    <apellidos>Corral Venegas</apellidos>
+                    <telefono>667 648 914</telefono>
+                    <direccion>
+                        <calle>Valadouro</calle>
+                        <ciudad>Montellano</ciudad>
+                        <codigo_postal>48191</codigo_postal>
+                        <provincia>Vizcaya</provincia>
+                    </direccion>
+                    <correo_electronico>JerryCorralVenegas@dayrep.com</correo_electronico>
+                    <fecha_de_inclusion>08/07/2021</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>65</numero_pedido>
+                <fecha_de_compra>05/08/2021</fecha_de_compra>
+                <fecha_de_entrega>09/08/2021</fecha_de_entrega>
+                <total_factura>80€</total_factura>
+                <producto>
+                    <nombre_producto>Disco Duro de 1TB</nombre_producto>
+                    <referencia>aah5</referencia>
+                    <precio>74€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Beatriz</nombre>
+                    <apellidos>Santacruz Jimenez</apellidos>
+                    <telefono>648 409 120</telefono>
+                    <direccion>
+                        <calle>Inglaterra</calle>
+                        <ciudad>Iznalloz</ciudad>
+                        <codigo_postal>18550</codigo_postal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo_electronico>BeatrixSantacruzJiminez@armyspy.com</correo_electronico>
+                    <fecha_de_inclusion>08/05/2021</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>66</numero_pedido>
+                <fecha_de_compra>15/08/2021</fecha_de_compra>
+                <fecha_de_entrega>20/08/2021</fecha_de_entrega>
+                <total_factura>19€</total_factura>
+                <producto>
+                    <nombre_producto>Tira LED RGB 5M</nombre_producto>
+                    <referencia>aah6</referencia>
+                    <precio>14€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Beatriz</nombre>
+                    <apellidos>Santacruz Jimenez</apellidos>
+                    <telefono>648 409 120</telefono>
+                    <direccion>
+                        <calle>Inglaterra</calle>
+                        <ciudad>Iznalloz</ciudad>
+                        <codigo_postal>18550</codigo_postal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo_electronico>BeatrixSantacruzJiminez@armyspy.com</correo_electronico>
+                    <fecha_de_inclusion>08/05/2021</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>67</numero_pedido>
+                <fecha_de_compra>23/08/2021</fecha_de_compra>
+                <fecha_de_entrega>24/08/2021</fecha_de_entrega>
+                <total_factura>23€</total_factura>
+                <producto>
+                    <nombre_producto>Bombilla RGB</nombre_producto>
+                    <referencia>aah7</referencia>
+                    <precio>9€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Rosmina</nombre>
+                    <apellidos>Jazquez Esquibel</apellidos>
+                    <telefono>681 108 019</telefono>
+                    <direccion>
+                        <calle>Puerta Nueva</calle>
+                        <ciudad>Pontevedra</ciudad>
+                        <codigo_postal>36000</codigo_postal>
+                        <provincia>Pontevedra</provincia>
+                    </direccion>
+                    <correo_electronico>RosmiraJaquezEsquibel@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>19/03/2021</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>68</numero_pedido>
+                <fecha_de_compra>05/09/2021</fecha_de_compra>
+                <fecha_de_entrega>13/09/2021</fecha_de_entrega>
+                <total_factura>28€</total_factura>
+                <producto>
+                    <nombre_producto>Mando universal</nombre_producto>
+                    <referencia>aah8</referencia>
+                    <precio>19€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Africa</nombre>
+                    <apellidos>Olvera Valenzuela</apellidos>
+                    <telefono>626 460 406</telefono>
+                    <direccion>
+                        <calle>Pablo Iglesias</calle>
+                        <ciudad>Viniegra de Abajo</ciudad>
+                        <codigo_postal>26325</codigo_postal>
+                        <provincia>La Rioja</provincia>
+                    </direccion>
+                    <correo_electronico>RosmiraJaquezEsquibel@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>19/03/2021</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>69</numero_pedido>
+                <fecha_de_compra>15/09/2021</fecha_de_compra>
+                <fecha_de_entrega>18/09/2021</fecha_de_entrega>
+                <total_factura>12€</total_factura>
+                <producto>
+                    <nombre_producto>Pelicula Blu-Ray</nombre_producto>
+                    <referencia>aah9</referencia>
+                    <precio>10€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Lucas</nombre>
+                    <apellidos>Lucio Vallejo</apellidos>
+                    <telefono>792 028 783</telefono>
+                    <direccion>
+                        <calle>Lamas Carbajal</calle>
+                        <ciudad>Los Molares</ciudad>
+                        <codigo_postal>41750</codigo_postal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo_electronico>LukasLucioVallejo@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>23/07/2021</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>70</numero_pedido>
+                <fecha_de_compra>23/09/2021</fecha_de_compra>
+                <fecha_de_entrega>30/09/2021</fecha_de_entrega>
+                <total_factura>75€</total_factura>
+                <producto>
+                    <nombre_producto>Android Tv Box</nombre_producto>
+                    <referencia>aah10</referencia>
+                    <precio>69€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+        </trimestre>
+        <trimestre epoca='4'>
+            <pedido>
+                <cliente>
+                    <nombre>Yosef</nombre>
+                    <apellidos>Robledo Collado</apellidos>
+                    <telefono>786 814 190</telefono>
+                    <direccion>
+                        <calle>Fuente del Gallo</calle>
+                        <ciudad>Arteixo</ciudad>
+                        <codigo_postal>15142</codigo_postal>
+                        <provincia>La Coruña</provincia>
+                    </direccion>
+                    <correo_electronico>YosefRobledoCollado@armyspy.com</correo_electronico>
+                    <fecha_de_inclusion>14/08/2021</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>71</numero_pedido>
+                <fecha_de_compra>01/10/2021</fecha_de_compra>
+                <fecha_de_entrega>03/10/2021</fecha_de_entrega>
+                <total_factura>328€</total_factura>
+                <producto>
+                    <nombre_producto>Movil Realme</nombre_producto>
+                    <referencia>aaj1</referencia>
+                    <precio>159€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Rocio</nombre>
+                    <apellidos>Alcala Parra</apellidos>
+                    <telefono>651 448 292</telefono>
+                    <direccion>
+                        <calle>El Roqueo</calle>
+                        <ciudad>Llagostera</ciudad>
+                        <codigo_postal>17240</codigo_postal>
+                        <provincia>Girona</provincia>
+                    </direccion>
+                    <correo_electronico>RocioAlcalaParra@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>31/03/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>72</numero_pedido>
+                <fecha_de_compra>06/10/2021</fecha_de_compra>
+                <fecha_de_entrega>16/10/2021</fecha_de_entrega>
+                <total_factura>335€</total_factura>
+                <producto>
+                    <nombre_producto>Apple Watch SE(44mm)</nombre_producto>
+                    <referencia>aaj2</referencia>
+                    <precio>322€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Pepe</nombre>
+                    <apellidos>Muñiz Coronado</apellidos>
+                    <telefono>672 773 362</telefono>
+                    <direccion>
+                        <calle>Socampo</calle>
+                        <ciudad>Abusejo</ciudad>
+                        <codigo_postal>37640</codigo_postal>
+                        <provincia>Salamanca</provincia>
+                    </direccion>
+                    <correo_electronico>PepeMunizCoronado@armyspy.com</correo_electronico>
+                    <fecha_de_inclusion>04/02/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>73</numero_pedido>
+                <fecha_de_compra>20/10/2021</fecha_de_compra>
+                <fecha_de_entrega>22/10/2021</fecha_de_entrega>
+                <total_factura>680€</total_factura>
+                <producto>
+                    <nombre_producto>Lavavajillas</nombre_producto>
+                    <referencia>aaj3</referencia>
+                    <precio>669€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Miguel</nombre>
+                    <apellidos>Salazar Cruz</apellidos>
+                    <telefono>621 613 879</telefono>
+                    <direccion>
+                        <calle>Estrela</calle>
+                        <ciudad>Santoña</ciudad>
+                        <codigo_postal>39740</codigo_postal>
+                        <provincia>Cantabria</provincia>
+                    </direccion>
+                    <correo_electronico>MiguelSalazarCruz@armyspy.com</correo_electronico>
+                    <fecha_de_inclusion>13/01/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>74</numero_pedido>
+                <fecha_de_compra>30/10/2021</fecha_de_compra>
+                <fecha_de_entrega>05/11/2021</fecha_de_entrega>
+                <total_factura>612€</total_factura>
+                <producto>
+                    <nombre_producto>Pack VR</nombre_producto>
+                    <referencia>aaj4</referencia>
+                    <precio>599€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Rocio</nombre>
+                    <apellidos>Alcala Parra</apellidos>
+                    <telefono>651 448 292</telefono>
+                    <direccion>
+                        <calle>El Roqueo</calle>
+                        <ciudad>Llagostera</ciudad>
+                        <codigo_postal>17240</codigo_postal>
+                        <provincia>Girona</provincia>
+                    </direccion>
+                    <correo_electronico>RocioAlcalaParra@jourrapide.com</correo_electronico>
+                    <fecha_de_inclusion>31/03/2021</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>75</numero_pedido>
+                <fecha_de_compra>06/11/2021</fecha_de_compra>
+                <fecha_de_entrega>10/11/2021</fecha_de_entrega>
+                <total_factura>100€</total_factura>
+                <producto>
+                    <nombre_producto>Disco duro de 4TB</nombre_producto>
+                    <referencia>aaj5</referencia>
+                    <precio>89€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Pedro</nombre>
+                    <apellidos>Banda Amador</apellidos>
+                    <telefono>794 366 766</telefono>
+                    <direccion>
+                        <calle>Ourense</calle>
+                        <ciudad>Ólvega</ciudad>
+                        <codigo_postal>42110</codigo_postal>
+                        <provincia>Soria</provincia>
+                    </direccion>
+                    <correo_electronico>PedroBandaAmador@teleworm.us</correo_electronico>
+                    <fecha_de_inclusion>22/11/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>76</numero_pedido>
+                <fecha_de_compra>16/11/2021</fecha_de_compra>
+                <fecha_de_entrega>17/11/2021</fecha_de_entrega>
+                <total_factura>406€</total_factura>
+                <producto>
+                    <nombre_producto>TV LED "32"</nombre_producto>
+                    <referencia>aaj6</referencia>
+                    <precio>199€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Sandra</nombre>
+                    <apellidos>Ramos Linares</apellidos>
+                    <telefono>711 706 557</telefono>
+                    <direccion>
+                        <calle>Cañada del Rosal</calle>
+                        <ciudad>Isla Cristina</ciudad>
+                        <codigo_postal>21410</codigo_postal>
+                        <provincia>Huelva</provincia>
+                    </direccion>
+                    <correo_electronico>PedroBandaAmador@teleworm.us</correo_electronico>
+                    <fecha_de_inclusion>22/11/2020</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>77</numero_pedido>
+                <fecha_de_compra>16/10/2021</fecha_de_compra>
+                <fecha_de_entrega>17/11/2021</fecha_de_entrega>
+                <total_factura>406€</total_factura>
+                <producto>
+                    <nombre_producto>TV LED "32"</nombre_producto>
+                    <referencia>aaj7</referencia>
+                    <precio>199€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Miguel</nombre>
+                    <apellidos>Salazar Cruz</apellidos>
+                    <telefono>621 613 879</telefono>
+                    <direccion>
+                        <calle>Estrela</calle>
+                        <ciudad>Santoña</ciudad>
+                        <codigo_postal>39740</codigo_postal>
+                        <provincia>Cantabria</provincia>
+                    </direccion>
+                    <correo_electronico>MiguelSalazarCruz@armyspy.com</correo_electronico>
+                    <fecha_de_inclusion>13/01/2020</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>78</numero_pedido>
+                <fecha_de_compra>20/11/2021</fecha_de_compra>
+                <fecha_de_entrega>25/11/2021</fecha_de_entrega>
+                <total_factura>631€</total_factura>
+                <producto>
+                    <nombre_producto>PlayStation 5</nombre_producto>
+                    <referencia>aaj8</referencia>
+                    <precio>619€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Alberto</nombre>
+                    <apellidos>Martinez Betancourt</apellidos>
+                    <telefono>675 263 828</telefono>
+                    <direccion>
+                        <calle>Libertad</calle>
+                        <ciudad>Tíjola</ciudad>
+                        <codigo_postal>04880</codigo_postal>
+                        <provincia>Almeria</provincia>
+                    </direccion>
+                    <correo_electronico>AlbertoMartinezBetancourt@rhyta.com</correo_electronico>
+                    <fecha_de_inclusion>23/12/2018</fecha_de_inclusion>
+                    <pedidos>1</pedidos>
+                </cliente>
+                <numero_pedido>79</numero_pedido>
+                <fecha_de_compra>26/11/2021</fecha_de_compra>
+                <fecha_de_entrega>30/11/2021</fecha_de_entrega>
+                <total_factura>190€</total_factura>
+                <producto>
+                    <nombre_producto>Auriculares True Wirelless</nombre_producto>
+                    <referencia>aaj9</referencia>
+                    <precio>178,99€</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>Pedro</nombre>
+                    <apellidos>Banda Amador</apellidos>
+                    <telefono>794 366 766</telefono>
+                    <direccion>
+                        <calle>Ourense</calle>
+                        <ciudad>Ólvega</ciudad>
+                        <codigo_postal>42110</codigo_postal>
+                        <provincia>Soria</provincia>
+                    </direccion>
+                    <correo_electronico>PedroBandaAmador@teleworm.us</correo_electronico>
+                    <fecha_de_inclusion>22/11/2018</fecha_de_inclusion>
+                    <pedidos>2</pedidos>
+                </cliente>
+                <numero_pedido>80</numero_pedido>
+                <fecha_de_compra>05/10/2021</fecha_de_compra>
+                <fecha_de_entrega>12/12/2021</fecha_de_entrega>
+                <total_factura>109€</total_factura>
+                <producto>
+                    <nombre_producto>Maquina de coser</nombre_producto>
+                    <referencia>aaj10</referencia>
+                    <precio>98,50€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </pedido>
+        </trimestre>
+    </año>
+</pedidos>
